@@ -21,15 +21,15 @@ class HelloWorldViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+
     @IBAction func helloTapped(_ sender: Any) {
-        messageLabel.text = "Hello World!"
+        messageLabel.text = "Hello World"
     }
     
     @IBAction func clearTapped(_ sender: Any) {
         messageLabel.text = ""
     }
     
-
     /*
     // MARK: - Navigation
 
