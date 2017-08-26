@@ -23,7 +23,7 @@ class HelloWorldViewController: UIViewController {
     }
 
     @IBAction func helloTapped(_ sender: Any) {
-        messageLabel.text = "Hello World"
+        messageLabel.text = "Hello World!"
     }
     
     @IBAction func clearTapped(_ sender: Any) {
